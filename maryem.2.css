@@ -1,0 +1,173 @@
+
+ body
+ {
+	 background: #dfdfe6;
+	 margin: 0;
+	 padding: 0;
+	 
+ }
+ .header
+ {
+     background-color:rgb(0, 0, 0);
+     padding: 1px;
+     text-align:1px; 
+     position: sticky;
+     display: block;
+     z-index: 10;
+     top: 0px;
+  }
+  .header img
+  {
+	 margin:0;
+	 border-radius: 40%;
+     padding-left: 14px;
+  }
+  .header h2 {
+     font-family: "Sofia", sans-serif;
+     line-height: 0;
+     text-indent: 26px;
+     color:rgb(255, 255, 255);
+     padding-left: 10px;
+	 font-size: 15px;
+  
+   }
+ 
+ h1 
+  {
+     text-align: center;
+     text-transform: uppercase;
+     color: red(2,2,2);
+  }
+  .tex
+  {
+	  
+	 width: 85%;
+	 margin: 10px 10%;
+	 font-size:20px
+  }
+  div .navbar
+  { 
+	  background-color:rgba(2,2,2);
+	  padding:0px;
+	  margin: 0;
+	  overflow:hidden;
+	  padding-bottom:0px;
+	  
+  }
+  
+  div .navbar .items
+  {
+	  width:80%;
+	  float:left;
+  }
+  div .navbar .items ul
+  {
+	  margin:0;
+	  padding:0;
+	  float:left;
+  }
+  div .navbar .items ul li
+  {
+	  list-style:none;
+	  float:left;
+	  margin:10px 15px;
+	  color:#fff;
+	  font-size:25px;
+	  transition: 0.5s;
+  }
+  div .navbar .items ul li a 
+  {
+	  display:block;
+	  position:relative;
+	  text-decoration:none;
+	  padding:5px;
+	  font-size:18px;
+	  color:#fff;
+	  text-transform:uppercase;
+	  font-family:sans-serif;
+	  transition:0.5s;
+  }
+  div .navbar .items ul:hover li a 
+  {
+	  transform:scale(1.5);
+	  opacity: .2;
+	  filter:blur(5px);
+	  
+  }
+   div .navbar .items ul li a:hover
+  {
+	  transform:scale(2);
+	  opacity: 1;
+	  filter:blur(0); 
+  }
+   div .navbar .items ul li a:before
+  {
+	  content:'';
+	  position: absolute;
+	  top:0;
+	  left:0;
+	  width:100%;
+	  height:100%;
+	  background:#4d99b1;
+	  transition:transform 0.5s;
+	  transform-origin:right;
+	  transform:scalex(0);
+	  z-index:-1;
+  }
+  div .navbar .items ul li a:hover:before
+  {
+	  transition:transform 0.5s;
+	  transform-origin:left;
+	  transform:scalex(1);
+  }
+  .header
+  {
+	  background-color:rgb(0, 0, 0);
+	  padding: 1px;
+	  text-align:1px; 
+	  position: sticky;
+	  display: block;
+	  z-index: 10;
+	  top: 0px;
+   }
+   .header img
+   {
+		margin:1;
+		border-radius: 70%;
+	  padding-left: 14px;
+   }
+   .header h2 {
+	  font-family: "Sofia", sans-serif;
+	  line-height: 0;
+	  text-indent: 26px;
+	  color:rgb(255, 255, 255);
+	  padding-left: 10px;
+	  font-size: 15px;
+	}
+ .footer{
+	background-color: #191e22;
+	color:#6a6e71;
+	padding: 2px 0;
+	text-align: center;
+  }
+  .footer ul{
+	list-style: none;
+	padding-left: 0;
+	margin: 10px 0 0;
+  }
+  .footer ul li {
+	display: inline-block;
+  }
+  .p44{
+	text-align: left;
+	font-size: 21px;
+	color: #6cb0f0;
+	font-family: Cursive;
+  }
+  .p45{
+	padding-right: 30px;
+	text-align: left;
+	font-size: 23px;
+	font-family: "Sofia", sans-serif;
+	color: rgb(134, 42, 127);
+   }
